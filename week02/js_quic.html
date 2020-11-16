@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>홀짝판별</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        let count = 1;
+        function oddeven() {
+            count = count+1;
+            if (count % 2 == 0){
+                alert(count + '짝수');
+            } else {
+                alert(count + '홀수');
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick = "oddeven()">나는 버튼</button>
+</body>
+</html>
